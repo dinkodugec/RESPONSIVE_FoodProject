@@ -11,12 +11,22 @@ console.log(h1);
   h1.style.padding = "5rem";
 }); */
 
+
+/* SET CURRENT Year */
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 console.log(currentYear);
 yearEl.textContent = currentYear;
 
 
+/* make mobile navigation work */
+
+const btnNav = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener('click', function(){
+    headerEl.classList.toggle("nav-open");
+});
 
 
 //////////////////////////////////////
