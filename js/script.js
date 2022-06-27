@@ -21,13 +21,12 @@ yearEl.textContent = currentYear;
 
 /* make mobile navigation work */
 
-const btnNav = document.querySelector(".btn-mobile-nav");
+const btnNavE = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
-btnNavEl.addEventListener('click', function(){
-    headerEl.classList.toggle("nav-open");
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
 });
-
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
